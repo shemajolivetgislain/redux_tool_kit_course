@@ -1,7 +1,9 @@
+import ExpenseTracker from "./pages/ExpenseTracker";
+
 function App() {
   return (
-    <div className="text-2xl">
-      <h1>Welcome to React + TS + redux</h1>
+    <div className="m-8 w-full h-dvh ">
+      <ExpenseTracker />
     </div>
   );
 }
