@@ -24,7 +24,6 @@ function ExpenseTracker() {
   return (
     <div className="min-h-screen bg-slate-200 flex flex-col items-center p-5">
       <h1 className="text-xl font-bold text-green-800"> Expense Tracker</h1>
-
       <form
         action=""
         onSubmit={handleSubmit}
